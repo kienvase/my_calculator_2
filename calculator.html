@@ -19,6 +19,11 @@
      var num = document.getElementById("n1");
      num.value = Math.pow(num.value, 2);
     }
+    function invers() {
+     var num = document.getElementById("n1");
+     var x = num.value;
+     num.value = 1 / x;
+    }
     </script>
     </head>
     <body>
@@ -30,6 +35,7 @@
         <button onclick="cube()"> x^3 </button>
         <button onclick="sine()"> sin(x) </button>
         <button onclick="cuartaPotencia()"> x^4 </button>
+        <button onclick="invers()"> 1/x </button>
         </p>
     </body>
 </html>
